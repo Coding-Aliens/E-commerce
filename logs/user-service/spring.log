@@ -1,0 +1,50 @@
+13:43:52:400  INFO 7496 --- [main] com.hmall.user.UserApplication           : Starting UserApplication using Java 11.0.23 on MyLaptop with PID 7496 (C:\Users\kendr\OneDrive\Desktop\Programming\hmall\user-service\target\classes started by kendr in C:\Users\kendr\OneDrive\Desktop\Programming\hmall)
+13:43:52:408 DEBUG 7496 --- [main] com.hmall.user.UserApplication           : Running with Spring Boot v2.7.12, Spring v5.3.27
+13:43:52:410  INFO 7496 --- [main] com.hmall.user.UserApplication           : The following 1 profile is active: "local"
+13:43:55:002  INFO 7496 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=5a8305c1-d13d-360d-9d3c-c7a645eb424c
+13:43:55:460  INFO 7496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8084 (http)
+13:43:55:471  INFO 7496 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+13:43:55:471  INFO 7496 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.75]
+13:43:55:612  INFO 7496 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+13:43:55:612  INFO 7496 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3110 ms
+13:43:59:999  INFO 7496 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+13:44:00:055  INFO 7496 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)]
+13:44:01:929  INFO 7496 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+13:44:02:301  INFO 7496 --- [main] com.alibaba.nacos.common.remote.client   : [RpcClientFactory] create a new rpc client of 77859e4a-cd75-4c67-8aba-e356df8c1cec
+13:44:02:385  INFO 7496 --- [main] org.reflections.Reflections              : Reflections took 49 ms to scan 1 urls, producing 3 keys and 6 values 
+13:44:02:444  INFO 7496 --- [main] org.reflections.Reflections              : Reflections took 28 ms to scan 1 urls, producing 4 keys and 9 values 
+13:44:02:477  INFO 7496 --- [main] org.reflections.Reflections              : Reflections took 24 ms to scan 1 urls, producing 3 keys and 10 values 
+13:44:02:485  WARN 7496 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+13:44:02:509  INFO 7496 --- [main] org.reflections.Reflections              : Reflections took 23 ms to scan 1 urls, producing 1 keys and 5 values 
+13:44:02:537  INFO 7496 --- [main] org.reflections.Reflections              : Reflections took 23 ms to scan 1 urls, producing 1 keys and 7 values 
+13:44:02:565  INFO 7496 --- [main] org.reflections.Reflections              : Reflections took 22 ms to scan 1 urls, producing 2 keys and 8 values 
+13:44:02:570  WARN 7496 --- [main] org.reflections.Reflections              : given scan urls are empty. set urls in the configuration
+13:44:02:572  INFO 7496 --- [main] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] RpcClient init label, labels = {module=naming, source=sdk}
+13:44:02:576  INFO 7496 --- [main] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] RpcClient init, ServerListFactory = com.alibaba.nacos.client.naming.core.ServerListManager
+13:44:02:577  INFO 7496 --- [main] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] Registry connection listener to current client:com.alibaba.nacos.client.naming.remote.gprc.redo.NamingGrpcRedoService
+13:44:02:578  INFO 7496 --- [main] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] Register server push request handler:com.alibaba.nacos.client.naming.remote.gprc.NamingPushRequestHandler
+13:44:02:582  INFO 7496 --- [main] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] Try to connect to server on start up, server: {serverIp = '192.168.186.128', server main port = 8848}
+13:44:05:931  INFO 7496 --- [main] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] Success to connect to server [192.168.186.128:8848] on start up, connectionId = 1717073566493_192.168.186.1_63082
+13:44:05:932  INFO 7496 --- [com.alibaba.nacos.client.remote.worker] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] Notify connected event to listeners.
+13:44:05:934  INFO 7496 --- [main] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$ConnectResetRequestHandler
+13:44:05:935  INFO 7496 --- [main] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] Register server push request handler:com.alibaba.nacos.common.remote.client.RpcClient$$Lambda$956/0x0000000800828440
+13:44:06:058  INFO 7496 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8084 (http) with context path ''
+13:44:06:077  INFO 7496 --- [main] c.a.c.n.registry.NacosServiceRegistry    : nacos registry, DEFAULT_GROUP user-service 192.168.56.1:8084 register finished
+13:44:06:471  INFO 7496 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] Receive server push request, request = NotifySubscriberRequest, requestId = 153
+13:44:06:488  INFO 7496 --- [nacos-grpc-client-executor-9] com.alibaba.nacos.common.remote.client   : [77859e4a-cd75-4c67-8aba-e356df8c1cec] Ack server push request, request = NotifySubscriberRequest, requestId = 153
+13:44:07:953  INFO 7496 --- [main] o.s.cloud.commons.util.InetUtils         : Cannot determine local hostname
+13:44:07:954  INFO 7496 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Documentation plugins bootstrapped
+13:44:07:960  INFO 7496 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+13:44:08:007  INFO 7496 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+13:44:08:270  INFO 7496 --- [main] com.hmall.user.UserApplication           : Started UserApplication in 18.882 seconds (JVM running for 21.154)
+13:53:17:758  WARN 7496 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Start destroying common HttpClient
+13:53:17:758  WARN 7496 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Start destroying Publisher
+13:53:17:760  WARN 7496 --- [Thread-4] c.a.nacos.common.notify.NotifyCenter     : [NotifyCenter] Destruction of the end
+13:53:17:760  WARN 7496 --- [Thread-7] c.a.n.common.http.HttpClientBeanHolder   : [HttpClientBeanHolder] Destruction of the end
+13:53:18:777  INFO 7496 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registering from Nacos Server now...
+13:53:18:784  INFO 7496 --- [SpringApplicationShutdownHook] c.a.c.n.registry.NacosServiceRegistry    : De-registration finished.
+13:53:19:096  INFO 7496 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown rpc client, set status to shutdown
+13:53:19:096  INFO 7496 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Shutdown client event executor java.util.concurrent.ScheduledThreadPoolExecutor@645b3538[Running, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 0]
+13:53:19:098  INFO 7496 --- [SpringApplicationShutdownHook] com.alibaba.nacos.common.remote.client   : Close current connection 1717073566493_192.168.186.1_63082
+13:53:19:102  INFO 7496 --- [nacos-grpc-client-executor-148] c.a.n.c.remote.client.grpc.GrpcClient    : [1717073566493_192.168.186.1_63082]Ignore complete event,isRunning:false,isAbandon=false
+13:53:19:109  INFO 7496 --- [SpringApplicationShutdownHook] c.a.n.c.remote.client.grpc.GrpcClient    : Shutdown grpc executor java.util.concurrent.ThreadPoolExecutor@347b37d6[Running, pool size = 5, active threads = 0, queued tasks = 0, completed tasks = 149]
